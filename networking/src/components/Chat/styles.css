@@ -1,0 +1,30 @@
+/* styles.css */
+.header-container {
+    position: fixed;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background-color: #DCDCDC;
+  }
+  
+  .logout-button {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color:#CD5C5C;
+    font-family: Noto Sans, sans-serif;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 100px;
+    height:  30px;
+  }
+  
+  .header-container div {
+    margin-left: 1300px;
+  }

@@ -1,0 +1,65 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+      "title": "Документация к API Messenger",
+      "description": "WebChat Application прикладного уровня",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000"
+      }
+    ],
+    "paths": {
+      "/receive": {
+        "post": {
+          "description": "Receive new message",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Message": {
+          "type": "object",
+          "properties": {
+            "mes_id": {
+              "type": "number",
+              "example": 1
+            },
+            "user": {
+              "type": "string",
+              "example": "user1"
+            },
+            "text": {
+              "type": "string",
+              "example": "hello"
+            },
+            "time": {
+              "type": "string",
+              "example": "2024-04-20T20:20:28Z"
+            },
+            "is_error": {
+              "type": "string",
+              "example": "Error"
+            }
+          }
+        }
+      }
+    }
+  }
+  

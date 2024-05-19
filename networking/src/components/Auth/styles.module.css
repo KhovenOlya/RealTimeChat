@@ -1,0 +1,71 @@
+
+.logoContainer {
+  margin-bottom: 40px;
+  margin-right: -300px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 230px; 
+  height: auto;
+}
+body{
+  background-color: white;
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-left: -40px;
+  color: black;
+}
+
+.titleContainer {
+  font-family: Helvetica, sans-serifs !important;
+  font-weight: bold;
+  margin-right: 200px!important;
+  font-size: 50px;
+  color: black !important;
+  margin-left: 50px;
+  position: absolute !important; 
+  top: 200px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  margin-right: -1450px;
+  margin-top: -100px;
+}
+
+.input {
+  display: block; 
+  width: 380px !important;
+  border-radius: 30px !important;
+  border: 1px solid #ccc !important;
+  background-color: white !important; 
+  margin-left: -50px !important;
+  margin-top: 80px !important;
+}
+.noBorder {
+  border: none !important;
+}
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border: none;
+} 
+
+.button {
+  display: block; 
+  width: 120px !important;
+  height: 40px !important;
+  border-radius: 25px !important; 
+  background-color: #90EE90 !important;
+  color: white !important; 
+  cursor: pointer !important;
+  margin-top: 100px!important;
+  margin-left: 170px !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: transparent !important;
+}
